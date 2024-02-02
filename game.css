@@ -1,0 +1,16 @@
+.game-container {
+    width: 400px;
+    margin: auto;
+}
+
+.game-title, .key-function {
+    width: 400px;
+    height: 50px;
+    display: block; /* 이미지를 블록 요소로 만들어 줄바꿈을 추가 */
+    margin: auto;
+}
+
+#gameCanvas {
+    display: block;
+    margin: auto;
+}
