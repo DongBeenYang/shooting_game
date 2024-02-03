@@ -1,11 +1,12 @@
 //캔버스 세팅
-let canvas;
-let ctx;
-canvas = document.createElement("canvas")
-ctx = canvas.getContext("2d")
+// 캔버스 세팅
+let canvas = document.getElementById('gameCanvas'); // HTML에서 정의한 캔버스를 가져옵니다.
+let ctx = canvas.getContext('2d');
+
 canvas.width = 400;
 canvas.height = 700;
-document.body.appendChild(canvas);
+
+
 
 let gameOver=false // true이면 게임오버, false이면 게임오버아님.
 let score = 0
